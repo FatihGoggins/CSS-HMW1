@@ -1,0 +1,96 @@
+* {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root,
+body {
+	background-color: azure;
+	height: 100%;
+}
+
+.container {
+	text-align: center;
+	background-color: azure;
+	padding: 20px;
+}
+
+.title {
+	font-size: 60px;
+	color: brown;
+	font-weight: bold;
+}
+
+.main-link {
+	display: inline-block;
+	margin: 10px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+p {
+	margin: 20px;
+	font-size: 25px;
+	color: black;
+}
+
+.list-title {
+	color: rgba(255, 166, 0, 0.822);
+	font-size: 25px;
+	font-weight: bold;
+}
+
+li {
+	font-size: 20px;
+	list-style: none;
+	margin: 10px;
+}
+
+.main-title {
+	color: purple;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+img {
+	height: 500px;
+}
+
+.game-title {
+	margin: 20px 25%;
+}
+
+.game-title:hover {
+	scale: 1.25;
+}
+
+.game-title > a {
+	font-size: 25px;
+	color: orange;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.game-title > a:hover {
+	color: red;
+}
+
+.game-info {
+	padding: 0 25%;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 27px;
+}
+
+.about-para,
+.about-title {
+	text-align: justify;
+	font-size: 20px;
+}
+
+.about-title {
+	font-size: 25px;
+	color: orange;
+}
